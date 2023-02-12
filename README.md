@@ -1,22 +1,28 @@
-# **URL Shortener**
+## **URLs Shortener Application built with Django**
 
-A simple URL shortener application built using Django.
+This project is a simple URLs shortener application built with Django, a high-level Python web framework. The application allows users to enter a long URL and receive a shortened version that redirects to the original URL. The shortened URL can be shared and tracked for clicks.
 
 ## **Features**
 
-- Shorten URLs
-- Store and retrieve shortened URLs
-- Redirect users to the original URL when they access the shortened URL
+- Shorten long URLs into short, memorable ones
+- Redirect short URLs to their original, long versions
+- Track clicks on short URLs
+- Responsive design for optimal viewing on different devices
 
-## **Prerequisites**
+## **Technical stack**
 
-- Python 3.x
-- Django 3.x
-- SQLite or any other relational database
+- Python 3
+- Django 3
+- HTML, CSS, JavaScript (jQuery)
+- SQLite database (can be easily switched to other databases such as PostgreSQL or MySQL)
 
-## **Installation**
+## **Achieved Skills**
 
-1. Clone the repository
+- Built a full-stack web application using Django
+- Implemented URL shortening and redirection functionality
+- Utilized Django's built-in authentication and authorization features for user management
+- Incorporated tracking and analytics for short URLs
+- Developed a responsive user interface for optimal viewing on different devices.
 
 ```
 shellCopy code
